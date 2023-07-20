@@ -327,15 +327,18 @@ footer p:nth-child(2){
 
 
 
-@media(max-width:991px){
+@media screen and(max-width:991px){
     html{
         font-size:55%
     }
     .hero{
         padding:20px
     }
+    .hero .img{
+        width: 100;
+    }
 }
-@media(max-width:768px){
+@media sreen and (max-width:768px){
     .nav{
         position: absolute;
         top: 100%; left: 0; right: 0;
