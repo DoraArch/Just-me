@@ -178,6 +178,10 @@ button:hover{
     align-items: center;
     min-height: 400px;
 }
+.box:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
 .card{
     height: 500px;
     width: 335px;
